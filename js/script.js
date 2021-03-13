@@ -1,0 +1,1 @@
+function trackScroll(){5<window.scrollY?goTopBtn.classList.add("back_to_top-show"):goTopBtn.classList.remove("back_to_top-show")}function backToTop(){window.scroll(0,0)}var goTopBtn=document.querySelector(".back_to_top");window.addEventListener("scroll",trackScroll),goTopBtn.addEventListener("click",backToTop);
